@@ -3,6 +3,7 @@
   "version": "0.0.5",
   "description": "A local runner of Parse CloudCode",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "mocha"
   },
@@ -36,7 +37,7 @@
     "mandrill": "git://github.com/flovilmart/parse-mandrill#0.0.1-parse",
     "moment": "1.7.2",
     "parse": "^1.6.3",
-    "parse-cloud": "0.0.82",
+    "parse-cloud": "git+https://github.com/bblurock/parse-cloud.git",
     "parse-image": "0.0.4",
     "sendgrid": "git://github.com/flovilmart/parse-sendgrid#0.0.1-parse",
     "stripe": "git://github.com/flovilmart/parse-stripe#2.5.0-parse",
